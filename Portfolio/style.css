@@ -1,0 +1,174 @@
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+section{
+    height: 500px;
+    background-color: white;
+    border: solid black 1px;
+
+}
+
+.j1{
+    background-color: rgb(33, 33, 36);
+    height: 100vh;
+    color:white;
+    font-size: 40px;
+
+}
+
+footer{
+    height: 500px;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around ;
+    width: 400px;
+    font-size:large;
+}
+
+li{
+ 
+    text-decoration: none;
+}
+
+h1{
+   font-size: 100px; 
+   margin: 0;
+}
+
+.j2{
+margin-left: 40px;
+margin-bottom: 200px;
+}
+p{
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.area{
+    display: flex;
+   
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+
+
+.yoyo{
+    width: 200px;
+    height: 80px;
+    background-color: coral;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top:20px;
+}
+
+.yoyo:hover{
+    background-color: rgb(137, 94, 13);
+
+}
+
+.yoyo:active{
+    background-color: darkgreen;
+    color: chocolate;
+    }
+
+
+.socials{
+    padding-bottom: 200px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+}
+
+.socials1{
+    margin: 30px;
+    width: 30px;
+}
+.social1:hover{
+    background-color: white;
+}
+    
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+h2{
+    font-size: 50px;
+}
+
+.pic{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    }
+.pic-container{
+    display: flex;
+}
+
+.skills{
+    width:100px;
+    height: 100px;
+    box-shadow: 5px 5px 20px;
+    justify-content: space-around;
+    text-align:center;
+
+}
+
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.skillset{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 300px;
+    column-gap: 20px;
+}
+
+.Contact-Me{
+    background-color: black;
+    height: 900px;
+    color: white;
+    text-align: center;
+}
+
+.jojo{
+    color: cornsilk;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size:xx-large;
+}
+
+@media only screen and (max-width:1000px){
+    .skill-container{
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+}
